@@ -24,11 +24,11 @@ To grant web access to the containerized Node-RED programming tool its used port
 
 ##### Privileged mode
 
-The nodes *rfid*, *rfid gpi* and *rfid gpo* enables the module and control its LEDs across GPIOs 17, 22 and 23. Only the privileged mode option lifts the enforced container limitations to allow usage of GPIOs in a container.
+The nodes *rfid*, *rfid gpi* and *rfid gpo* enable the module and control its LEDs across GPIOs 17, 22 and 23. Only the privileged mode option lifts the enforced container limitations to allow usage of GPIOs in a container.
 
 ##### Host device
 
-The serial port device `/dev/ttyS0` needs to be added to the container. The device is available only if an inserted module has been recognized by netPI during boot process. Else the conatiner will fail to start.
+The serial port device `/dev/ttyS0` needs to be added to the container. The device is available only if an inserted module has been recognized by netPI during boot process. Else the container will fail to start.
 
 #### Getting started
 
