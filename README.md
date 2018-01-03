@@ -54,7 +54,7 @@ Pulling the image from Docker Hub may take up to 5 minutes.
 
 #### Accessing
 
-After starting the container open Node-RED in your browser with `http://<netpi's ip address>:<mapped host port>` (NOT https://) e.g. `http://192.168.0.1:1880`. Three nodes *rfid*, *rfid gpi* and *rfid gpo* in the nodes *netpi* library provide you access to the RFID module. Their info tabs explain how to use them.
+After starting the container open Node-RED in your browser with `http://<netpi's ip address>:<mapped host port>` (NOT https://) e.g. `http://192.168.0.1:1880`. Three nodes *rfid*, *rfid gpi* and *rfid gpo* in the nodes *netiot* library provide you access to the RFID module. Their info tabs explain how to use them.
 
 #### GitHub sources
 The image is built from the GitHub project [netPI-nodered-npix-rfid](https://github.com/Hilscher/netPI-nodered-npix-rfid). It complies with the [Dockerfile](https://docs.docker.com/engine/reference/builder/) method to build a Docker image [automated](https://docs.docker.com/docker-hub/builds/).
